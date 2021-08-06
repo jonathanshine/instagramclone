@@ -1,0 +1,97 @@
+header {
+    display: flex;
+    align-items: stretch;
+    height: 150px;
+    max-width: 935px;
+    line-height: 18px;
+    margin-bottom: 44px;
+
+    .leftHeader {
+        max-width: 291.67px;
+        height: 150px;
+
+        .profPicContainer {
+            margin: 0px 70.83px;
+            height: 150px;
+            width: 150px;
+
+            img {
+                height: 150px;
+                width: 150px;
+                border-radius: 50%;
+                position: absolute;
+                display: block;
+            }
+        }
+    }
+
+    section {
+        display: flex;
+        align-items: stretch;
+        flex-basis: 30px;
+        flex-direction: column;
+        flex-grow: 2;
+        flex-shrink: 1;
+        max-width: 613.33px;
+        height: 150px;
+        position: relative;
+
+        .profInfoContainer {
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+            flex-shrink: 1;
+            height: 40px;
+            line-height: 18px;
+            margin-bottom: 20px;
+            position: relative;
+            vertical-align: baseline;
+            max-width: 613.33px;
+
+            h1 {
+                font-size: 28px;
+                font-weight: 300;
+                height: 32px;
+                line-height: 32px;
+            }
+            
+            a {
+                border: 1px solid rgb(219, 219, 219);
+                border-radius: 4px;
+                padding: 5px 9px;
+                text-decoration: none;
+                color: rgb(0, 0, 0);
+                font-weight: 600;
+                text-align: center;
+                height: 30px;
+                margin-left: 20px;
+            }
+
+            button {
+                font-size: 20px;
+                height: 40px;
+                width: 40px;
+                margin-left: 5px;
+                padding: 8px;
+                border-style: none;
+                background-color: rgba(0, 0, 0, 0);
+            }
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+            margin-bottom: 20px;
+            max-width: 613.33px;
+
+            li {
+                font-size: 16px;
+                margin-right: 40px;
+
+                span {
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
