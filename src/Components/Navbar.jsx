@@ -1,4 +1,6 @@
 import React from 'react';
+import { FaRegPaperPlane, FaRegCompass, FaRegHeart, FaRegCircle } from 'react-icons/fa';
+import { CgHome } from 'react-icons/cg';
 
 
 const Navbar = () => {
@@ -10,12 +12,12 @@ const Navbar = () => {
             <div>
                 <input type="search" name="search" id="search" placeholder='Search'/>
             </div>
-            <div>
-                <a href="#"><img src={`${process.env.PUBLIC_URL}/img/home.svg`} alt="home" /></a>
-                <a href="#">Message</a>
-                <a href="#">Explore</a>
-                <a href="#">Activity</a>
-                <a href="#">Profile</a>
+            <div className='icons'>
+                <a href="#"><CgHome/></a>
+                <a href="#"><FaRegPaperPlane/></a>
+                <a href="#"><FaRegCompass/></a>
+                <a href="#"><FaRegHeart/></a>
+                <a href="#"><FaRegCircle/></a>
             </div>
         </nav>
     )
