@@ -1,0 +1,33 @@
+.tabContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 53px;
+    width: 935px;
+    line-height: 18px;
+    font-weight: 600;
+    border-top: 1px solid rgb(219, 219, 219);
+    font-size: 12px;
+
+    a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 52px;
+        width: 73px;
+        margin-right: 60px;
+        text-align: center;
+        text-decoration: none;
+        color: rgb(142, 142, 142);
+        text-transform: uppercase;
+        vertical-align: baseline;
+    }
+
+    span {
+        display: flex;
+        justify-content: space-evenly;
+        height: 18px;
+        width: 73px;
+        vertical-align: baseline;
+    }
+}
