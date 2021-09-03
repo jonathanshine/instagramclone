@@ -13,11 +13,31 @@
         align-items: stretch;
 
         .galleryIMG {
+            position: relative;
             margin-right: 28px;
 
             img {
                 height: 293px;
                 width: 293px;
+            }
+
+            .imgInfo {
+                top: 0;
+                left: 0;
+                position: absolute;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 293px;
+                width: 293px;
+                color: white;
+                font-weight: 600;
+                font-size: 16px;
+                background-color: rgba(0, 0, 0, .3);
+
+                span:first-child {
+                    margin-right: 30px;
+                }
             }
         }
     }
