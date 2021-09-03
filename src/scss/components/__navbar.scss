@@ -1,24 +1,46 @@
 nav {
+    background-color: rgb(255, 255, 255);
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    // padding: 0.9rem;
+    width: 100%;
     height: 54px;
-    border-bottom: 1px solid lightgrey;
+    border-bottom: 1px solid rgb(219, 219, 219);
+
+    .navInside {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 975px;
+        padding: 0px 20px;
+    }
+    
     img {
         vertical-align: bottom;
     }
+
     input {
+        background-color: rgb(250, 250, 250);
+        color: rgb(142, 142, 142);
         text-align: center;
-        padding: 3px 0px;
+        font-size: 14px;
+        font-weight: 300;
+        padding: 3px 10px;
+        margin-left: 100px;
         border: 1px solid rgb(219, 219, 219);
         border-radius: 3px;
+        height: 28px;
+        min-width: 125px;
+        width: 215px;
     }
+
     .icons {
+        padding-left: 24px;
         display: flex;
         justify-content: space-between;
         align-items: stretch;
         width: 222px;
+        
         a {
             text-decoration: none;
             color: black;
