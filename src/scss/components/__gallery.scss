@@ -1,0 +1,24 @@
+.galleryContainer {
+    width: 935px;
+    height: 1577px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+
+    .galleryRow {
+        width: 935px;
+        height: 293px;
+        margin-bottom: 28px;
+        display: flex;
+        align-items: stretch;
+
+        .galleryIMG {
+            margin-right: 28px;
+
+            img {
+                height: 293px;
+                width: 293px;
+            }
+        }
+    }
+}
