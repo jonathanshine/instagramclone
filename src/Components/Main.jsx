@@ -3,12 +3,12 @@ import Gallery from './Gallery';
 import Header from './Header';
 import Tab from './Tab';
 
-const Main = () => {
+const Main = ({ data }) => {
     return (
         <div className="mainContainer">
             <Header/>
             <Tab/>
-            <Gallery/>
+            <Gallery data={ data }/>
         </div>
     )
 }
