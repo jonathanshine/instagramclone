@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
 const Footer = () => {
     return (
         <footer>
-            <div>
+            <div className="footerFlex">
                 <ul>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Blog</a></li>
@@ -18,10 +18,9 @@ const Footer = () => {
                     <li><a href="#">Instagram Lite</a></li>
                 </ul>
             </div>
+            <div className="footerFlex">
                 <div>English</div>
                 <div>© 2021 Instagram from Facebook</div>
-            <div>
-
             </div>
         </footer>
     )
