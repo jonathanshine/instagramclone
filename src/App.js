@@ -1,6 +1,6 @@
 import Main from "./Components/Main";
 import Navbar from "./Components/Navbar";
-import Footer from "./Footer";
+import Footer from "./Components/Footer";
 import data from './gallery.json';
 
 
