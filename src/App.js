@@ -1,6 +1,6 @@
-import Gallery from "./Components/Gallery";
 import Main from "./Components/Main";
 import Navbar from "./Components/Navbar";
+import Footer from "./Footer";
 import data from './gallery.json';
 
 
@@ -9,6 +9,7 @@ function App() {
     <div className="App">
       <Navbar/>
       <Main data={ data }/>
+      <Footer/>
     </div>
   );
 }
